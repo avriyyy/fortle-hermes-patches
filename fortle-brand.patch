@@ -27,18 +27,3 @@ index 8bf6f4ee9..aa70d7fd2 100644
                  </Typography>
                </div>
  
-diff --git a/web/src/i18n/en.ts b/web/src/i18n/en.ts
-index aed600413..88a84470f 100644
---- a/web/src/i18n/en.ts
-+++ b/web/src/i18n/en.ts
-@@ -53,8 +53,8 @@ export const en: Translations = {
-   },
- 
-   app: {
--    brand: "Hermes Agent",
--    brandShort: "HA",
-+    brand: "FORTLE.DEV",
-+    brandShort: "FT",
-     closeNavigation: "Close navigation",
-     closeModelTools: "Close model and tools",
-     footer: {
