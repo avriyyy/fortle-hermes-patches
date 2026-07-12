@@ -1,0 +1,44 @@
+diff --git a/web/index.html b/web/index.html
+index fe7cda519..ad981e319 100644
+--- a/web/index.html
++++ b/web/index.html
+@@ -7,7 +7,7 @@
+       name="viewport"
+       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+     />
+-    <title>Hermes Agent - Dashboard</title>
++    <title>Fortle - Dashboard</title>
+   </head>
+   <body>
+     <div id="root"></div>
+diff --git a/web/src/App.tsx b/web/src/App.tsx
+index 8bf6f4ee9..aa70d7fd2 100644
+--- a/web/src/App.tsx
++++ b/web/src/App.tsx
+@@ -577,9 +577,9 @@ export default function App() {
+                   className="font-bold text-[1.125rem] leading-[0.95] tracking-[0.0525rem] text-midground uppercase"
+                   style={{ mixBlendMode: "plus-lighter" }}
+                 >
+-                  Hermes
++                  FORTLE
+                   <br />
+-                  Agent
++                  DEV
+                 </Typography>
+               </div>
+ 
+diff --git a/web/src/i18n/en.ts b/web/src/i18n/en.ts
+index aed600413..88a84470f 100644
+--- a/web/src/i18n/en.ts
++++ b/web/src/i18n/en.ts
+@@ -53,8 +53,8 @@ export const en: Translations = {
+   },
+ 
+   app: {
+-    brand: "Hermes Agent",
+-    brandShort: "HA",
++    brand: "FORTLE.DEV",
++    brandShort: "FT",
+     closeNavigation: "Close navigation",
+     closeModelTools: "Close model and tools",
+     footer: {
